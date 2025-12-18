@@ -1,0 +1,17 @@
+#Sistema de Tienda Online
+
+#1.- Colocamos los valores
+nombre = 'Chocomilk'
+precio = 25
+cantidad = 10
+disponible = True
+
+#2.- Cambiar algun valor
+#nombre = input("Nombre: ")
+cantidad = int(input("Cantidad: "))
+#precio = float(input("Precio: "))
+#disponible = bool(input("Esta disponible? "))
+
+#2.- Mostramos los valores
+print("*** Sistema de Tienda Online ***\nProducto: ",nombre,
+      "\nPrecio: $",precio,"\nCantidad inventario: ",cantidad,"\nDisponible: ",disponible)
